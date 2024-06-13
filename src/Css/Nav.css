@@ -1,0 +1,62 @@
+.navBar{
+    background-color: rgb(19,25,33);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 14px;
+    object-fit: contain;
+}
+
+.navSearch{
+    display: flex;
+    flex: 1;
+}
+
+.searchBox{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.searchIcon{
+    background-color: rgb(254,189,105);
+    padding: 5px;
+    height: 22px !important;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.hello{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+.navs1{
+    font-size: 13px;
+}
+
+.navs2{
+    font-size: 16px;
+    font-weight: 800;
+}

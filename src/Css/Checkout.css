@@ -1,0 +1,30 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: #f3f3f3;
+    height: auto;
+    justify-content: space-between;
+}
+
+.checkout__left {
+    flex: 0.7;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.checkout__right {
+    flex: 0.3;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.checkout__title {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}

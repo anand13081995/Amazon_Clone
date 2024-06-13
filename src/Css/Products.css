@@ -1,0 +1,63 @@
+.product {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 5;
+}
+
+.propic {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.proinfo {
+  text-align: center;
+}
+
+.proinfo p {
+  font-size: 17px;
+  font-weight: 800;
+  margin: 5px 0;
+}
+
+.prating {
+  display: flex;
+  justify-content: center;
+}
+
+.prating p {
+  color: gold;
+  margin: 0 2px;
+}
+
+.pprice {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.addToCartButton {
+  padding: 10px;
+  border: none;
+  background-color: #f0c14b;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.addToCartButton:hover {
+  background-color: #e2b907;
+}
